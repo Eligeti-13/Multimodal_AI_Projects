@@ -9,7 +9,7 @@ from groq import Groq
 from sentence_transformers import SentenceTransformer, util
 import os
 
-st.set_page_config(page_title="Free RAG with LLaMA", layout="wide")
+st.set_page_config(page_title="Free RAG", layout="wide")
 
 st.write("<h1 style='text-align: center;'>DocuRAG Intelligence</h1>", unsafe_allow_html=True)
 
